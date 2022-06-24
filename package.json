@@ -1,0 +1,39 @@
+{
+  "name": "urlshorty",
+  "version": "1.0.0",
+  "description": "A url shortner",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anmolpandita1/urlshorty.git"
+  },
+  "keywords": [
+    "urlshorty"
+  ],
+  "author": "anmolpandita",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anmolpandita1/urlshorty/issues"
+  },
+  "homepage": "https://github.com/anmolpandita1/urlshorty#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-rate-limit": "^6.4.0",
+    "express-slow-down": "^1.4.0",
+    "helmet": "^5.1.0",
+    "monk": "^7.3.4",
+    "morgan": "^1.10.0",
+    "nanoid": "^4.0.0",
+    "nodemon": "^2.0.18",
+    "yup": "^0.32.11"
+  },
+  "engines": {
+    "node": "14.x"
+  }
+}
